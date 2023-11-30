@@ -1,0 +1,17 @@
+{
+  "name": "advent-of-code",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/ramda": "^0.29.9",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "clipanion": "^4.0.0-rc.2",
+    "radash": "^11.0.0",
+    "ramda": "^0.29.1"
+  }
+}
