@@ -6,15 +6,15 @@ const day = __DAY__;
 const pathBits = `years/${year}/${String(day).padStart(2, '0')}`;
 
 const data1 = await Bun.file(`./${pathBits}/test_input_1.txt`).text();
-const data2 = await Bun.file(`./${pathBits}/test_input_2.txt`).text();
+// const data2 = await Bun.file(`./${pathBits}/test_input_2.txt`).text();
 
 const sol1 = new Solution(data1);
-const sol2 = new Solution(data2);
+// const sol2 = new Solution(data2);
 
 test("test solution 1", () => {
-  expect(sol1.part1()).toBe('');
+  expect(sol1.part1()).toBe(undefined);
 });
 
-test("test solution 2", () => {
-  expect(sol2.part2()).toBe('');
-});
+// test("test solution 2", () => {
+//   expect(sol2.part2()).toBe(undefined);
+// });

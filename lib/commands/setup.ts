@@ -75,8 +75,6 @@ class SetupCommand extends Command {
         .replaceAll('__YEAR__', this.year)
         .replaceAll('__DAY__', this.day);
 
-      console.log(`${dirname}/solution.test.ts`);
-
       Bun.write(`${dirname}/solution.test.ts`, tmpl);
       console.log(kleur.green(`Wrote file: solution.test.ts`));
     }
