@@ -1,0 +1,16 @@
+import { SolutionBase } from '../../../lib/solution';
+import { Result } from '../../../lib/types';
+
+class Solution extends SolutionBase {
+
+  public part1(): Result {
+    return '';
+  }
+
+  public part2(): Result {
+    return '';
+  }
+
+}
+
+export default Solution;
