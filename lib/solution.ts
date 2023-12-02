@@ -6,7 +6,7 @@ export abstract class SolutionBase {
 
   constructor(input: string) {
     this.rawInput = input;
-    this.input = input.split('\n');
+    this.input = input.split('\n').filter(x => x);
   }
 
   public abstract part1(): Result;
