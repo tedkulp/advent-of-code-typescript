@@ -79,7 +79,7 @@ class Solution extends SolutionBase {
   }
 
   private parseCards(): Card[] {
-    return this.input.map(line => {
+    return this.input.filter(x => x).map(line => {
       const matches = line.match(/^Card +(\d+): (.*) +\| +(.*)$/);
       const have = (matches?.at(2) || '').split(/ +/).map((n) => parseInt(n, 10));
       const need = (matches?.at(3) || '').split(/ +/).map((n) => parseInt(n, 10));
