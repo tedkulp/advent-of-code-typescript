@@ -3,6 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
+    "@types/lodash": "^4.14.202",
     "@types/ramda": "^0.29.9",
     "bun-types": "latest"
   },
@@ -13,6 +14,7 @@
     "cheerio": "^1.0.0-rc.12",
     "clipanion": "^4.0.0-rc.2",
     "kleur": "^4.1.5",
+    "lodash": "^4.17.21",
     "radash": "^11.0.0",
     "ramda": "^0.29.1",
     "turndown": "^7.1.2"
